@@ -1,0 +1,33 @@
+{
+  "name": "srm",
+  "version": "1.0.0",
+  "description": "Delete deep directory patch for windows",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "Os": [
+    "win32"
+  ],
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fengxq2014/srm.git"
+  },
+  "keywords": [
+    "delete",
+    "deep",
+    "directory"
+  ],
+  "author": "defned",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fengxq2014/srm/issues"
+  },
+  "homepage": "https://github.com/Fengxq2014/srm#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "yargs": "^6.5.0"
+  }
+}
